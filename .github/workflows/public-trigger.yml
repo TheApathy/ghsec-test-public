@@ -1,0 +1,15 @@
+name: Vector - Public Trigger
+on: [public]
+
+jobs:
+  test-public:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Log public event
+        run: |
+          echo "=== PUBLIC TRIGGER ==="
+          echo "Event: ${{ github.event_name }}"
+          echo "Actor: ${{ github.actor }}"
+          echo "Secret present: ${{ secrets.FAKE_SECRET != '' && 'YES' || 'NO' }}"
+          echo "======================"
