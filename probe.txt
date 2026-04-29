@@ -31,3 +31,4 @@ wiz-W4_v3_decode_bypass 1777494155.243963883
 wiz-W5_bare_rails_env 1777494158.002065256
 wiz-W6_bare_enterprise_mode 1777494160.587510673
 wiz-W7_x_semi_prefix 1777494163.274372996
+variant-channel 1777494867
