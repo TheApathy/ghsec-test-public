@@ -1,0 +1,3 @@
+[submodule "x"]
+    path = x
+    url = https://example.com/repo;rails_env=development.git
